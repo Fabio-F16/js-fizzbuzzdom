@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 
+h1{
+    color: red;
+    text-align: center;
+}
+
 #grigliaNumerica {
     width: 700px;
-    margin: 50px auto;
+    margin: 25px auto;
     display: flex;
     flex-wrap: wrap;
 
 }
-
 
 .numberBox {
     width: 70px;
@@ -21,6 +25,7 @@
     background-color: red;
     vertical-align: middle;
     line-height: 70px;
+    border: 1px solid black;
 }
 
 .fizz{
