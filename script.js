@@ -9,7 +9,7 @@ for(let boxIndex = 1; boxIndex <= 100; boxIndex++){
     if (boxIndex % 3 == 0 && boxIndex % 5 == 0) {
 
         let element = `<div class="numberBox fizzbuzz">FizzBuzz</div>`;
-        console.log('Buzz');
+        console.log('FizzBuzz');
         grigliaNumerica.innerHTML += element;
     }
    
