@@ -4,18 +4,39 @@ console.log('js ok')
 const grigliaNumerica = document.querySelector("#grigliaNumerica");
 
 for(let boxIndex = 1; boxIndex <= 100; boxIndex++){
-    const element = `<div class="numberBox numberBox-${boxIndex}">${boxIndex}</div>`;
-    grigliaNumerica.innerHTML += element;
-
-    console.log(boxIndex)
-
+   
+   
     if (boxIndex % 3 == 0){
-        const element = `<div class="fizz">Fizz</div>`;
-        console.log('Fizz')
-        
+        let element = `<div class="numberBox fizz">Fizz</div>`;
+        console.log('Fizz');
+        grigliaNumerica.innerHTML += element;
    
     }
+    else if (boxIndex % 5 == 0) {
+
+        let element = `<div class="numberBox buzz">Buzz</div>`;
+        console.log('Buzz');
+        grigliaNumerica.innerHTML += element;
+    }
+
+    else if (boxIndex % 3 == 0 && boxIndex % 5 == 0) {
+
+        let element = `<div class="numberBox fizzbuzz">FizzBuzz</div>`;
+        console.log('Buzz');
+        grigliaNumerica.innerHTML += element;
+    }
+      
+    else{
+    let element = `<div class="numberBox">${boxIndex}</div>`;
+    console.log(boxIndex);
+    grigliaNumerica.innerHTML += element;
+
+    }
+
+
 
    
     
 }
+
+

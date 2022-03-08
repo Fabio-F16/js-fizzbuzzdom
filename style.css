@@ -21,5 +21,16 @@
     background-color: red;
     vertical-align: middle;
     line-height: 50px;
-   
+}
+
+.fizz{
+    background-color: yellow;
+}
+
+.buzz{
+    background-color: orange;
+}
+
+.fizzbuzz{
+    background-color: green;
 }
