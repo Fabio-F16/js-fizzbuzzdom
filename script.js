@@ -32,7 +32,17 @@ for(let boxIndex = 1; boxIndex <= 100; boxIndex++){
     grigliaNumerica.innerHTML += element;
 
     }
-
+   
 }
+
+
+
+
+    // const fizz = document.querySelector('.fizz');
+
+    
+    // fizz.addEventListener ('click', function (){ 
+    // let element = `<div class="numberBox">${boxIndex}</div>`;
+
 
 
