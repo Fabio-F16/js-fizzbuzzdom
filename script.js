@@ -1,4 +1,4 @@
-console.log('js ok')
+// console.log('js ok')
 
 
 const grigliaNumerica = document.querySelector("#grigliaNumerica");
@@ -19,6 +19,7 @@ for(let boxIndex = 1; boxIndex <= 100; boxIndex++){
         grigliaNumerica.innerHTML += element;
    
     }
+    
     else if (boxIndex % 5 == 0) {
 
         let element = `<div class="numberBox buzz">Buzz</div>`;
