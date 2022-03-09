@@ -38,12 +38,11 @@ for(let boxIndex = 1; boxIndex <= 100; boxIndex++){
 
 
 
-
-    // const fizz = document.querySelector('.fizz');
+ // const fizz = document.querySelector('.fizz');
 
     
-    // fizz.addEventListener ('click', function (){ 
-    // let element = `<div class="numberBox">${boxIndex}</div>`;
+// fizz.addEventListener ('click', function (){ 
+ // let element = `<div class="numberBox">${boxIndex}</div>`;
 
 
 
